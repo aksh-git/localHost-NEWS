@@ -6,8 +6,8 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function News(props) {
 
-    const apiKey = "ea65806fe33f467785f707db015c446d"
-    //const apiKey = "5ce77f4937cb4bb2bd4b3833d0be0807"
+    //put api key here
+    //const apiKey = ""
 
     const [articles, setArticles] = useState([])
     const [loading, setLoading] = useState(true)
